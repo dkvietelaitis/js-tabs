@@ -1,0 +1,42 @@
+button
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 30px;
+    border-radius: 4px;
+    background: blue;
+    color: aqua;
+    border: none;
+    margin-bottom: 15px;
+    position: relative;
+    cursor: pointer;
+}
+
+button:after
+{
+    content: "";
+    height: 3px;
+    width: 0;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    transition: 0.5s;
+    
+}
+button:hover
+{
+    color: white;
+}
+button:hover::after
+{
+    width: 100%;
+        
+}
+.buttons
+{
+    margin-right: 25px;
+}

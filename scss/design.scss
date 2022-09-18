@@ -1,0 +1,39 @@
+body
+{
+    height: 100vh;
+    background: linear-gradient(to top, #314755, #26a0da);
+    background-repeat: no-repeat;
+    font-family: Tahoma, sans-serif; 
+}
+section
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+h1
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    text-align: center;
+}
+h2
+{
+    padding-bottom: 15px;
+    color: aqua;
+    text-shadow: 1px 1px darkgray;
+}
+p
+{
+    text-align: justify;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    color: beige;
+}
+a
+{
+    text-decoration: none;
+    color: aqua;
+}
